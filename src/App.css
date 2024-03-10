@@ -5,6 +5,8 @@
   --color-secondary: #243133;
   --color-accent: #12cdea;
   --font-color: #ffffff;
+
+  font-family: sans-serif;
 }
 
 .theme-light {
@@ -13,6 +15,7 @@
   --color-accent: #fd6f53;
   --font-color: #000000;
 }
+
 .theme-dark {
   --color-primary: #17ed90;
   --color-secondary: #243133;

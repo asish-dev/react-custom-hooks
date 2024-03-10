@@ -10,5 +10,10 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <div className={styles.AppLayout}>{children}</div>;
+  return (
+    <div className={styles.AppLayout}>
+      <header className={styles.Header}>Hooks</header>
+      {children}
+    </div>
+  );
 }
